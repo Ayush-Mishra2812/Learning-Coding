@@ -6,4 +6,3 @@ clean:
 
 run:
 	./hello_world
-
