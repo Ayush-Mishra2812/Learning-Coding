@@ -6,7 +6,7 @@ void sayHi(int); // Function declaration
 
 int main(){
 
-    sayHi(20); // function calling
+    sayHi(10);                      // function calling
     return 0;
 }
 
