@@ -3,13 +3,16 @@
 
 int main(){
 
-    int num1;
-    int num2;
+    double num1;
+    double num2;
     printf("Enter the first number: ");
-    scanf("%d \n", &num1);
+    scanf("%lf", &num1);
 
     printf("Enter the second number: ", &num2);
-    scanf("%d \n", &num2);
+    scanf("%lf", &num2);
 
-    printf("The of the numbers is: %d", num1 + num2);
+    printf("The sum of the numbers is: %lf \n", num1 + num2);
+
+    return 0;
+
 }
