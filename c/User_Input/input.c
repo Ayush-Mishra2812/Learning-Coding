@@ -6,18 +6,16 @@ int main() {
     int age;
     printf("Enter your age: ");
     scanf("%d", &age);
-    printf("you are %d years old \n", age);
+    printf("You are %d years old \n", age);
 
+    getchar(); 
 
-    char name[30];                              
+    char name1[20];                              
     printf("What is your name: ");
-    scanf("%s", name);                     /*Cant store strings which contain a space between them*/     
-    printf("Your name is %s \n", name);
+    fgets(name1, 20, stdin);
+    printf("Your name is %s", name1);
 
-    char name[30];                              
-    printf("What is your name: ");
-    fgets(name, 30, stdin);                          /*Can store a string which contains a space between them*/
-    printf("Your name is %s \n", name);
+    return 0;
 
-
+//fgets can store a string which has words seperated by a comma, while scaf cant do that
 }
