@@ -15,4 +15,7 @@ int main(){
     list[1] = 32;
     list[2] = 332;
 
+
+    // the sring is also an array.  
+    // char name[] is also an array.
 }
