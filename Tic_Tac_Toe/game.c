@@ -7,7 +7,7 @@ int main()
     int x_location;
     int o_location;
     int turn = 0;
-    char location2[9] = {'0', '1', '2', '3', '4', '5', '6', '7', '8'};
+    char location2[9]  = {'0', '1', '2', '3', '4', '5', '6', '7', '8'};
     char person;
 
     printf(" %c | %c | %c\n", location[0], location[1], location[2]);
