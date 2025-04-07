@@ -1,8 +1,8 @@
-game: game.c
-	gcc -o game game.c
+revised_code: revised_code.c
+	gcc -o revised_code revised_code.c
 
 clean:
-	rm -f game
+	rm -f revised_code
 
 run:
-	./game
+	./revised_code
